@@ -8,7 +8,7 @@ project:
 website:
   title: "Ljubica Georgievska"
   description: "Academic website of Ljubica Georgievska, Assistant Professor of Finance"
-  site-url: "https://REPLACE-WITH-YOUR-USERNAME.github.io/website"
+  site-url: "https://ljubicageorgievska.github.io/webpage"
   navbar:
     background: "#1b2a41"
     foreground: light
