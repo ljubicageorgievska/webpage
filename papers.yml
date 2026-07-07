@@ -5,13 +5,13 @@ working_papers:
   - Stefano Pegoraro
   - Anthony Saunders
   new: true
-  presentations: 'Tenth Annual Young Scholars Finance Consortium at A&M Mays Texas,
-    Sovereign Bond Market Conference 2026 on Sovereign Bond Markets in Geopolitical
-    Storms (upcoming), Midwest Finance Association, 2026 Consortium on Asset Management,
-    Colorado Finance Summit (2025), ESADE Spring Workshop (2025), and BI Norwegian
-    Business School Seminar (2024)
-
-    '
+  presentations: '2025 Colorado Finance Summit, 2025 ESADE Spring Workshop, 2026
+    Midwest Finance Association, 2026 Young Scholars Finance Consortium at Texas
+    A&M, 2026 Consortium on Asset Management, 2026 International Conference on Sovereign
+    Bond Markets, 2026 LAPE-FINEST Spring Workshop, University of Notre Dame, BI
+    Norwegian Business School, BIS-World Bank-Banxico Tenth Public Investors Conference
+    *(upcoming)*, EUROFIDAI-ESSEC Paris December Finance Meeting *(upcoming)*, and
+    7th Annual RCF-ECGI Conference *(upcoming)*.'
   abstract: 'We show the U.S. Treasury prioritizes nominal over market value of
     debt, at cost to taxpayers. The Treasury absorbs fiscal shocks through bills
     while maintaining predictable longer-term issuance, and does not adjust duration
@@ -76,7 +76,8 @@ working_papers:
   - Benjamin Karner
   - Olav Syrstad
   new: true
-  presentations: Midwest Finance Association
+  presentations: Midwest Finance Association, and 7th Annual RCF-ECGI Conference
+    *(upcoming)*.
   abstract: ''
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 3
