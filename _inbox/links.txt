@@ -1,1 +1,4 @@
 # Paste SSRN links below, one per line, then commit. The robot does the rest.
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
