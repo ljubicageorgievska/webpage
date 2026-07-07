@@ -51,3 +51,27 @@ Email: [ljubica.georgievska@bi.no](mailto:ljubica.georgievska@bi.no)
 <div class="gratitude">
 Gratitudes to Tsafitanos for the web design
 </div>
+
+<!-- Invisible structured data telling search engines and AI tools who this
+     page belongs to. To add your ORCID later, put its full address (e.g.
+     https://orcid.org/0000-0000-0000-0000) as another line in "sameAs". -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ljubica Georgievska",
+  "url": "https://ljubicageorgievska.github.io/webpage",
+  "jobTitle": "Assistant Professor of Finance",
+  "affiliation": [
+    {"@type": "Organization", "name": "NYU Stern School of Business"},
+    {"@type": "Organization", "name": "BI Norwegian Business School"}
+  ],
+  "alumniOf": {"@type": "Organization",
+               "name": "UCLA Anderson School of Management"},
+  "knowsAbout": ["Empirical asset pricing", "International finance",
+                 "Derivatives", "Macro-finance", "Financial intermediation"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en"
+  ]
+}
+</script>

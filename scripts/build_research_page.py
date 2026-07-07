@@ -4,12 +4,64 @@
 Runs automatically before every Quarto render (see pre-render in _quarto.yml).
 Never edit research.qmd by hand; edit papers.yml instead.
 """
+import json
 import pathlib
+import re
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "papers.yml"
 OUT = ROOT / "research.qmd"
+
+SITE_URL = "https://ljubicageorgievska.github.io/webpage"
+AUTHOR = {
+    "@type": "Person",
+    "name": "Ljubica Georgievska",
+    "url": SITE_URL,
+    "affiliation": [
+        {"@type": "Organization",
+         "name": "NYU Stern School of Business"},
+        {"@type": "Organization",
+         "name": "BI Norwegian Business School"},
+    ],
+}
+
+
+def _plain(text: str) -> str:
+    """Strip lightweight markdown (e.g. *(upcoming)*) for structured data."""
+    text = re.sub(r"\*([^*]*)\*", r"\1", text or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def json_ld(papers: list) -> str:
+    """schema.org JSON-LD describing every paper, read by search engines
+    and by the AI research tools built on top of them."""
+    graph = []
+    for p in papers:
+        entry = {
+            "@type": "ScholarlyArticle",
+            "headline": _plain(p.get("title", "")),
+            "creativeWorkStatus": "Working paper",
+            "author": [AUTHOR] + [
+                {"@type": "Person", "name": c}
+                for c in (p.get("coauthors") or [])
+            ],
+        }
+        abstract = _plain(p.get("abstract", ""))
+        if abstract:
+            entry["abstract"] = abstract
+        draft = (p.get("draft_url") or "").strip()
+        pdf = (p.get("pdf") or "").strip()
+        if draft:
+            entry["url"] = draft
+            entry["sameAs"] = draft
+        elif pdf:
+            entry["url"] = f"{SITE_URL}/papers/{pdf}"
+        graph.append(entry)
+    payload = {"@context": "https://schema.org", "@graph": graph}
+    return ('<script type="application/ld+json">\n'
+            + json.dumps(payload, indent=2, ensure_ascii=False)
+            + "\n</script>")
 
 
 def md_escape(text: str) -> str:
@@ -113,6 +165,10 @@ def main() -> None:
         for pub in pubs:
             parts.append(div("pub-citation", md_escape(pub.get("citation", ""))))
             parts.append("")
+
+    # Invisible structured data for search engines and AI research tools.
+    parts.append(json_ld(papers))
+    parts.append("")
 
     OUT.write_text("\n".join(parts), encoding="utf-8")
     print(f"Wrote {OUT} with {len(papers)} working papers and {len(pubs)} publications.")
