@@ -14,7 +14,7 @@ toc: false
 <!-- BIO-START (managed by the robot: edit _inbox/bio.txt instead) -->
 Welcome to my academic webpage!
 
-I am a Visiting Research Scholar at NYU Stern School of Business and an
+I am a Visiting Assistant Professor at NYU Stern School of Business and an
 Assistant Professor at BI Norwegian Business School. I completed my Ph.D.
 in Finance from UCLA Anderson School of Management in September 2022.
 <!-- BIO-END -->
