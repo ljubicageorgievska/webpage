@@ -5,24 +5,26 @@ working_papers:
   - Stefano Pegoraro
   - Anthony Saunders
   new: true
-  presentations: '2025 Colorado Finance Summit, 2025 ESADE Spring Workshop, 2026
+  presentations: 2025 Colorado Finance Summit, 2025 ESADE Spring Workshop, 2026
     Midwest Finance Association, 2026 Young Scholars Finance Consortium at Texas
     A&M, 2026 Consortium on Asset Management, 2026 International Conference on Sovereign
     Bond Markets, 2026 LAPE-FINEST Spring Workshop, University of Notre Dame, BI
     Norwegian Business School, BIS-World Bank-Banxico Tenth Public Investors Conference
     *(upcoming)*, EUROFIDAI-ESSEC Paris December Finance Meeting *(upcoming)*, and
-    7th Annual RCF-ECGI Conference *(upcoming)*.'
-  abstract: 'We show the U.S. Treasury prioritizes nominal over market value of
-    debt, at cost to taxpayers. The Treasury absorbs fiscal shocks through bills
-    while maintaining predictable longer-term issuance, and does not adjust duration
-    supply in response to market signals, instead tilting toward maturities with
-    the highest intermediation margins. The 2024-2025 buyback program targeted below-par
-    bonds, freeing $21 billion in nominal fiscal capacity with no market-value gain
-    for taxpayers. Exploiting staggered ESA 2010 adoption, we find core European
+    7th Annual RCF-ECGI Conference *(upcoming)*.
+  abstract: With U.S. government debt exceeding $36 trillion, the management of
+    interest rate risk on the Treasury's fixed-rate liabilities has become a first-order
+    fiscal question. We show that the Treasury, while institutionally sophisticated
+    in channeling borrowing surprises into Treasury bills to preserve stable fixed-rate
+    issuance, does not extend this capacity to managing the duration risk embedded
+    in its fixed-rate debt portfolio. The Treasury absorbs fiscal shocks through
+    bills while maintaining predictable longer-term issuance, and does not adjust
+    duration supply in response to market signals, instead tilting toward maturities
+    with the highest intermediation margins. The 2024–2025 buyback program targeted
+    below-par bonds, freeing $21 billion in nominal fiscal capacity with no market-value
+    gain for taxpayers. Exploiting staggered ESA 2010 adoption, we find core European
     countries reduced term spreads by 0.28 to 0.37 percentage points by managing
     duration risk.
-
-    '
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
 - number: 6
   title: Model-Free Cross-Country Convenience Term Premia and the U.S. Dollar Reserve
@@ -57,18 +59,17 @@ working_papers:
     Frankfurt School of Finance and Management, and BI Norwegian Business School
 
     '
-  abstract: 'U.S. 10-year swap fixed-rate receivers earn 2.74 percent per annum
-    since swap-market inception, with similar magnitudes across G10 markets. Standard
-    theory treats swaps as redundant securities and predicts zero. We rationalise
-    this through hedging-set incompleteness: long-dated riskless FRNs are absent
-    and bond shorting is costly, so dealers cannot statically replicate the swap,
-    leaving the term premium to fixed-rate receivers. The 2014 U.S. Treasury 2-year
-    FRN alleviates this incompleteness, compressing the 2-year premium by 25-32
-    basis points. Gross transfers flow from pay-fixed (GSEs and corporates) to receive-fixed
-    counterparties across the $540 trillion swap market, with welfare incidence
-    depending on hedgers'' value.
-
-    '
+  abstract: 'Interest rate swaps should theoretically generate zero expected excess
+    returns under risk-neutral pricing, yet systematically deviate from this principle.
+    Fixed-rate receivers earn 2.74% annual excess returns ("Hairy premiums") in
+    U.S. dollar 10-year swaps, with similar magnitudes across G10 currencies. Applying
+    novel triangular extraction methodology from cross-currency swaps, we decompose
+    realized U.S. relative premiums into expected and unexpected components. Expected
+    premiums explain 67.1-77.1% of realized variance and significantly differ from
+    zero, demonstrating markets expect these deviations ex-ante. We attribute expected
+    premiums to market incompleteness: absent long-term government floating-rate
+    notes and binding shorting constraints prevent static replication, forcing costly
+    dynamic hedging. Forecast errors reveal systematic monetary policy misinterpretation.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
 - number: 4
   title: Triangular Pure Parity Deviations
