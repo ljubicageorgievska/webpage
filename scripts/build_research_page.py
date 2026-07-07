@@ -30,18 +30,20 @@ def paper_block(p: dict) -> str:
     pdf = (p.get("pdf") or "").strip()
     link = draft or (f"papers/{pdf}" if pdf else "")
     shown_title = f"[{title}]({link})" if link else title
-    badge = ' <span class="badge-new">New</span>' if p.get("new") else ""
+    badge = '<span class="badge-new">New</span>' if p.get("new") else ""
     number = p.get("number")
     prefix = f"{number}\\. " if number is not None else ""
-    lines.append(div("paper-title", f"{prefix}{shown_title}{badge}"))
 
     coauthors = p.get("coauthors") or []
+    coauthor_span = ""
     if coauthors:
         if len(coauthors) == 1:
             joined = coauthors[0]
         else:
             joined = ", ".join(coauthors[:-1]) + " and " + coauthors[-1]
-        lines.append(div("coauthors", f"with {joined}"))
+        coauthor_span = f' <span class="title-coauthors">- with {joined}</span>'
+    lines.append(div("paper-title",
+                     f"{badge}{prefix}{shown_title}{coauthor_span}"))
 
     note = md_escape(p.get("note", ""))
     if note:
