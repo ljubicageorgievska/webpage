@@ -9,9 +9,10 @@ working_papers:
     Midwest Finance Association, 2026 Young Scholars Finance Consortium at Texas
     A&M, 2026 Consortium on Asset Management, 2026 International Conference on Sovereign
     Bond Markets, 2026 LAPE-FINEST Spring Workshop, University of Notre Dame, BI
-    Norwegian Business School, BIS-World Bank-Banxico Tenth Public Investors Conference
-    *(upcoming)*, EUROFIDAI-ESSEC Paris December Finance Meeting *(upcoming)*, and
-    7th Annual RCF-ECGI Conference *(upcoming)*.
+    Norwegian Business School, Northern Finance Association (NFA) *(upcoming)*,
+    BIS-World Bank-Banxico Tenth Public Investors Conference *(upcoming)*, EUROFIDAI-ESSEC
+    Paris December Finance Meeting *(upcoming)*, and 7th Annual RCF-ECGI Conference
+    *(upcoming)*.
   abstract: With U.S. government debt exceeding $36 trillion, the management of
     interest rate risk on the Treasury's fixed-rate liabilities has become a first-order
     fiscal question. We show that the Treasury, while institutionally sophisticated
@@ -77,8 +78,8 @@ working_papers:
   - Benjamin Karner
   - Olav Syrstad
   new: true
-  presentations: Midwest Finance Association, and 7th Annual RCF-ECGI Conference
-    *(upcoming)*.
+  presentations: Northern Finance Association (NFA) *(upcoming)*, and Midwest Finance
+    Association
   abstract: ''
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 3
@@ -86,6 +87,7 @@ working_papers:
   coauthors:
   - Sven Klingler
   - Lukas Kremens
+  - Lucio Sarno
   new: false
   note: 'This paper subsumes the previous paper "Currency Crashes and Sovereign
     Defaults: Two Markets and One Tail Risk".
