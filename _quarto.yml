@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  pre-render: python3 scripts/build_research_page.py
+
+website:
+  title: "Ljubica Georgievska"
+  description: "Academic website of Ljubica Georgievska, Assistant Professor of Finance"
+  site-url: "https://REPLACE-WITH-YOUR-USERNAME.github.io/website"
+  navbar:
+    background: "#1b2a41"
+    foreground: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+    right:
+      - text: CV
+        href: "files/cv.pdf"
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en"
+  page-footer:
+    center: "© Ljubica Georgievska"
+  # ---------------------------------------------------------------
+  # GOOGLE ANALYTICS: after you create a GA4 property, replace the
+  # placeholder below with your Measurement ID (it looks like G-XXXXXXXXXX)
+  # ---------------------------------------------------------------
+  google-analytics: "G-REPLACEME"
+  cookie-consent: true
+
+format:
+  html:
+    theme:
+      - litera
+      - assets/styles.scss
+    toc: false
+    linkcolor: "#7d5a2a"
+    fontsize: 1.02em

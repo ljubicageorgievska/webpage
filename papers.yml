@@ -1,0 +1,187 @@
+working_papers:
+- number: 7
+  title: 'The US Treasury''s Biggest Short: Duration in the Shadows'
+  coauthors:
+  - Stefano Pegoraro
+  - Anthony Saunders
+  new: true
+  presentations: 'Tenth Annual Young Scholars Finance Consortium at A&M Mays Texas,
+    Sovereign Bond Market Conference 2026 on Sovereign Bond Markets in Geopolitical
+    Storms (upcoming), Midwest Finance Association, 2026 Consortium on Asset Management,
+    Colorado Finance Summit (2025), ESADE Spring Workshop (2025), and BI Norwegian
+    Business School Seminar (2024)
+
+    '
+  abstract: 'We show the U.S. Treasury prioritizes nominal over market value of
+    debt, at cost to taxpayers. The Treasury absorbs fiscal shocks through bills
+    while maintaining predictable longer-term issuance, and does not adjust duration
+    supply in response to market signals, instead tilting toward maturities with
+    the highest intermediation margins. The 2024-2025 buyback program targeted below-par
+    bonds, freeing $21 billion in nominal fiscal capacity with no market-value gain
+    for taxpayers. Exploiting staggered ESA 2010 adoption, we find core European
+    countries reduced term spreads by 0.28 to 0.37 percentage points by managing
+    duration risk.
+
+    '
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
+- number: 6
+  title: Model-Free Cross-Country Convenience Term Premia and the U.S. Dollar Reserve
+    Currency Status
+  coauthors: []
+  new: false
+  presentations: ''
+  abstract: 'We develop a parametric-model-free triangular no-arbitrage methodology
+    that recovers cross-country convenience term premia, differentials in bilateral
+    term premia at the long end of the term structure, for seven currencies from
+    cross-currency basis swaps. First, U.S. Treasuries no longer command a long-horizon
+    convenience term premium against major reserve sovereigns: the ten-year term
+    premium of Bunds over Treasuries averaged +31 basis points pre-GFC, -39 during
+    the GFC, and -67 post-GFC; for JGBs, +37, -25, and -81. Second, inelastic U.S.
+    fiscal duration drives U.S. convenience term premia through a preferred-habitat
+    channel. Third, the cross-sectional average predicts the equally-weighted dollar
+    basket twelve months ahead orthogonally to interest rate differentials.
+
+    '
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5737482
+- number: 5
+  title: 'The "Hairy Premium": Market Hedging-Set Incompleteness and Frictions'
+  coauthors:
+  - Anthony Saunders
+  new: false
+  presentations: '2024 Annual Meetings of the American Finance Association (AFA),
+    2024 European Finance Association (EFA), 2024 Northern Finance Association Annual
+    Conference (NFA), Midwest Finance Association Conference (MFA), Young Scholars
+    Nordic Finance Network Workshop (NFN), Alpine Finance Summit, Finance and Accounting
+    Annual Research Symposium, Financial Engineering and Banking Society, BI Workshop
+    on Uncertainty, NYU Stern School of Business, Miami Herbert Business School,
+    Frankfurt School of Finance and Management, and BI Norwegian Business School
+
+    '
+  abstract: 'U.S. 10-year swap fixed-rate receivers earn 2.74 percent per annum
+    since swap-market inception, with similar magnitudes across G10 markets. Standard
+    theory treats swaps as redundant securities and predicts zero. We rationalise
+    this through hedging-set incompleteness: long-dated riskless FRNs are absent
+    and bond shorting is costly, so dealers cannot statically replicate the swap,
+    leaving the term premium to fixed-rate receivers. The 2014 U.S. Treasury 2-year
+    FRN alleviates this incompleteness, compressing the 2-year premium by 25-32
+    basis points. Gross transfers flow from pay-fixed (GSEs and corporates) to receive-fixed
+    counterparties across the $540 trillion swap market, with welfare incidence
+    depending on hedgers'' value.
+
+    '
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
+- number: 4
+  title: Triangular Currency Pure Parity Deviations
+  coauthors:
+  - Benjamin Karner
+  - Olav Syrstad
+  new: true
+  presentations: Midwest Finance Association
+  abstract: ''
+  draft_url: ''
+- number: 3
+  title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
+  coauthors:
+  - Sven Klingler
+  - Lukas Kremens
+  new: false
+  note: 'This paper subsumes the previous paper "Currency Crashes and Sovereign
+    Defaults: Two Markets and One Tail Risk".
+
+    '
+  presentations: 'AFA Annual Meeting, EEA Annual Meeting, Bank of England: 8th International
+    Conference on Sovereign Bond Markets, Anderson School of Management Brownbag
+    Seminar, and SDU
+
+    '
+  abstract: 'This paper documents striking market segmentation between sovereign
+    credit default swaps (CDS) and far out-of-the-money (FOM) foreign exchange (FX)
+    options markets. Despite pricing exposure to the same fundamental tail risks,
+    sovereign default and currency crash, the "Twin Ds", these markets exhibit persistent
+    pricing discrepancies that cannot be explained by differences in contract specifications
+    or risk exposures. We propose that this segmentation reflects institutional
+    separation between market participants: credit specialists and FX traders operate
+    in distinct spheres with limited information sharing during normal times. Using
+    two cross-market trading strategies, one exploiting USD-denominated CDS versus
+    FOM FX options spreads, and another using quanto CDS versus FOM FX options,
+    we show that these pricing discrepancies yield substantial abnormal returns
+    with Sharpe ratios exceeding 7.2. Crucially, both strategies generate consistent
+    results despite differing in their treatment of depreciation size upon default,
+    confirming that our findings reflect genuine market segmentation rather than
+    risk compensation for variable depreciation magnitude. The abnormal returns
+    collapse to zero during sovereign crises, when information sharing intensifies
+    and pricing converges across previously segmented markets. Our analysis further
+    reveals that information flows unidirectionally from CDS to FX options markets,
+    supporting our institutional explanation. We exploit regulatory changes and
+    cross-country variation in market structure to strengthen identification and
+    rule out alternative explanations based on rational risk pricing. These findings
+    have implications for understanding market structure effects on tail risk pricing
+    and for detecting potentially destabilizing market fragmentation.
+
+    '
+  draft_url: ''
+  appendix_url: https://drive.google.com/file/d/1X799xln-jsWHaFPFG2fbZhaaTX9lXqTd/view?usp=sharing
+- number: 2
+  title: Collateral-adjusted CIP Arbitrages
+  coauthors: []
+  new: false
+  presentations: 'EEA Annual Meeting, AFA Annual Meeting (Poster), Auckland Center''s
+    Derivative Markets Conference, International Risk Management Conference, Virtual
+    Derivatives Workshop, and Anderson School of Management Brownbag Seminar
+
+    '
+  abstract: 'I show that a no-arbitrage consistent but costly collateral rental
+    yield explains about two-thirds of the apparent standard Covered Interest Rate
+    (CIP) violations. I proxy this yield with the difference between the risk-free
+    and overnight index swap rates between the cross bilateral currencies and apply
+    it to both short and long-term CIP violations. Further, the results suggest
+    an important direct collateral channel through which costly collateralization
+    explains CIP violations, independent of previously documented global risks and
+    intermediary frictions.
+
+    '
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629178
+  appendix_url: https://drive.google.com/file/d/1k_BJd_-ydye6V_om4X6A2jrhbP-YWfB2/view?usp=sharing
+  extra_links:
+  - text: Virtual Derivatives Workshop 2020 Presentation
+    url: https://www.youtube.com/watch?v=d6Wq9bkON-Y&feature=youtu.be
+- number: 1
+  title: Constraints of Collateralization and Regulation and the Law of One Price
+  coauthors: []
+  new: false
+  awards: '[Macro Financial Modeling Project Fellowship Award](https://bfi.uchicago.edu/project/mfm-macro-financial-modeling-project/)
+    from the Becker Friedman Institute at the University of Chicago
+
+    '
+  abstract_label: Summary
+  abstract: 'I research collateralisation and bank regulatory changes in the post-2008
+    crisis period and their ability to explain large and persistent deviations from
+    the law of one price observed in a number of arbitrage opportunities measured
+    by cash-derivative bases across asset classes. The study attributes the inability
+    to narrow these arbitrage opportunities to costs of participation which arise
+    due to intermediaries facing collateral, leverage and liquidity constraints,
+    resulting in limits-to-arbitrage. These constraints inhibit regulated dealers/investors''
+    ability to arbitrage bases across various asset classes and over time. Moreover,
+    I go a step further and measure the magnitude of the effects of each binding
+    constraint on the deviations from law of one price across time and in the cross
+    section across several asset classes. This allows me to classify asset classes
+    by the magnitude of impact received from the binding constraints. The asset
+    class bases I look at are: Bonds-CDS, Treasuries-Interest Rate Swaps, Covered
+    interest rate parity, Inflation rate swaps-TIPS, and Stock Index - Stock index
+    swaps bases.
+
+    '
+  draft_url: ''
+publications:
+- citation: 'Georgievska A., Georgievska, Lj., Stojanovic, A. and Todorovic, N.
+    (2011), "Country Debt Default Probabilities in Emerging Markets: Were Credit
+    Rating Agencies Wrong?" in Robert W. Kolb (ed.), *Sovereign Debt: From Safety
+    to Default* (by invitation), Wiley, ISBN 978-0-470-92239-2.
+
+    '
+- citation: 'Georgievska A., Georgievska, Lj., Stojanovic, A. and Todorovic, N.
+    (2008), "[Sovereign rescheduling probabilities in emerging markets: a comparison
+    with credit rating agencies'' ratings](https://www.tandfonline.com/doi/abs/10.1080/02664760802193112)",
+    *Journal of Applied Statistics*, 35(9), p. 1031-1051.
+
+    '

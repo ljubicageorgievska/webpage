@@ -1,0 +1,60 @@
+name: Build and publish website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml requests beautifulsoup4 pdfplumber
+
+      - name: Process the inbox (new PDFs / SSRN links)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/process_inbox.py
+
+      - name: Commit any automatic updates back to the repository
+        run: |
+          git config user.name "website-robot"
+          git config user.email "actions@github.com"
+          git add papers.yml papers/ _inbox/ files/ index.qmd
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatic update: new paper processed from inbox"
+            git push
+          fi
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render website
+        run: quarto render
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
