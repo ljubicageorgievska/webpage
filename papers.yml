@@ -44,7 +44,7 @@ working_papers:
     '
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5737482
 - number: 5
-  title: 'The "Hairy Premium": Market Hedging-Set Incompleteness and Frictions'
+  title: 'The "Hairy Premium": Incomplete Markets and Frictions'
   coauthors:
   - Anthony Saunders
   new: false
@@ -78,7 +78,7 @@ working_papers:
   new: true
   presentations: Midwest Finance Association
   abstract: ''
-  draft_url: ''
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
   coauthors:
