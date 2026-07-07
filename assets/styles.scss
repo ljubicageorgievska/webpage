@@ -27,13 +27,18 @@ h2 {
 }
 
 .title-coauthors {
-  font-family: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 0.95rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.02rem;
   font-weight: 400;
   color: #5a6472;
 }
 
-.paper-title a { color: #1b2a41; text-decoration: none; }
+.paper-title a {
+  color: #1b2a41;
+  text-decoration: none;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+}
 .paper-title a:hover { color: #7d5a2a; }
 
 .badge-new {
@@ -61,7 +66,8 @@ details.abstract, details.presentations, .paper-links {
 .awards {
   font-size: 0.95rem;
   color: #3d4653;
-  margin: 0.3rem 0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .awards::before {
@@ -75,12 +81,14 @@ details.abstract, details.presentations {
   margin-bottom: 0.15rem;
   summary {
     cursor: pointer;
+    font-family: "Source Serif 4", Georgia, serif;
     font-weight: 600;
-    color: #7d5a2a;
-    font-size: 0.95rem;
+    color: #1b2a41;
+    font-size: 0.98rem;
   }
   p {
-    margin-top: 0.4rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.25rem;
     font-size: 0.97rem;
     text-align: justify;
   }
@@ -110,4 +118,9 @@ details.abstract, details.presentations {
   .paper-title { padding-left: 2.8rem; }
   .paper-note, .awards, .presentations,
   details.abstract, details.presentations, .paper-links { margin-left: 2.8rem; }
+}
+
+.pub-citation {
+  font-size: 0.92rem;
+  margin-bottom: 0.7rem;
 }

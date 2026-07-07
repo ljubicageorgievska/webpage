@@ -111,7 +111,7 @@ def main() -> None:
         parts.append("## Publications")
         parts.append("")
         for pub in pubs:
-            parts.append(md_escape(pub.get("citation", "")))
+            parts.append(div("pub-citation", md_escape(pub.get("citation", ""))))
             parts.append("")
 
     OUT.write_text("\n".join(parts), encoding="utf-8")
