@@ -1,0 +1,87 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$body-color: #24292f;
+$link-color: #7d5a2a;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+
+h1, h2, h3 { color: #1b2a41; }
+
+h2 {
+  border-bottom: 2px solid #c9a35a;
+  padding-bottom: 0.25rem;
+  margin-top: 2.2rem;
+}
+
+.paper-title {
+  margin-top: 2.1rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #1b2a41;
+}
+
+.paper-title a { color: #1b2a41; text-decoration: none; }
+.paper-title a:hover { color: #7d5a2a; }
+
+.badge-new {
+  background-color: #c9a35a;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+  text-transform: uppercase;
+}
+
+.coauthors { color: #5a6472; margin: 0.15rem 0 0.35rem 0; }
+
+.paper-note { font-style: italic; color: #5a6472; font-size: 0.95rem; }
+
+.awards {
+  font-size: 0.95rem;
+  color: #3d4653;
+  margin: 0.3rem 0;
+}
+
+.awards::before {
+  content: "Awards: ";
+  font-weight: 600;
+  color: #1b2a41;
+}
+
+details.abstract, details.presentations {
+  margin: 0.35rem 0;
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #7d5a2a;
+    font-size: 0.95rem;
+  }
+  p {
+    margin-top: 0.4rem;
+    font-size: 0.97rem;
+    text-align: justify;
+  }
+}
+
+.paper-links a {
+  display: inline-block;
+  margin-right: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contact-block { line-height: 1.45; }
+
+.gratitude {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #8a93a0;
+  text-align: center;
+}

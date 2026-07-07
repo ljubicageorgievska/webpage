@@ -1,0 +1,53 @@
+---
+title: "Ljubica Georgievska"
+toc: false
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<img src="files/profile.jpg" alt="Ljubica Georgievska" style="width:100%; max-width:280px; border-radius:6px;" onerror="this.style.display='none'"/>
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+<!-- BIO-START (managed by the robot: edit _inbox/bio.txt instead) -->
+Welcome to my academic webpage!
+
+I am a Visiting Research Scholar at NYU Stern School of Business and an
+Assistant Professor at BI Norwegian Business School. I completed my Ph.D.
+in Finance from UCLA Anderson School of Management in September 2022.
+<!-- BIO-END -->
+
+## Research Interests
+
+Empirical asset pricing, international finance, derivatives,
+macro-finance, and financial intermediation.
+
+:::
+
+:::
+
+## Contact Details
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .contact-block}
+Department of Finance<br>
+Leonard N. Stern School of Business<br>
+44 West Fourth Street | New York 10012 | USA<br>
+Email: [lg4086@nyu.edu](mailto:lg4086@nyu.edu)
+:::
+
+::: {.g-col-12 .g-col-md-6 .contact-block}
+Department of Finance<br>
+BI Norwegian Business School<br>
+Nydalsveien 37 | Oslo 0484 | Norway<br>
+Email: [ljubica.georgievska@bi.no](mailto:ljubica.georgievska@bi.no)
+:::
+
+:::
+
+<div class="gratitude">
+Gratitudes to Tsafitanos for the web design
+</div>
