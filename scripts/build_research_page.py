@@ -18,6 +18,8 @@ AUTHOR = {
     "@type": "Person",
     "name": "Ljubica Georgievska",
     "url": SITE_URL,
+    "@id": "https://orcid.org/0009-0006-7871-5753",
+    "sameAs": "https://orcid.org/0009-0006-7871-5753",
     "affiliation": [
         {"@type": "Organization",
          "name": "NYU Stern School of Business"},

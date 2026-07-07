@@ -71,7 +71,8 @@ Gratitudes to Tsafitanos for the web design
   "knowsAbout": ["Empirical asset pricing", "International finance",
                  "Derivatives", "Macro-finance", "Financial intermediation"],
   "sameAs": [
-    "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en"
+    "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en",
+    "https://orcid.org/0009-0006-7871-5753"
   ]
 }
 </script>
