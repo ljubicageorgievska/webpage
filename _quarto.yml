@@ -28,7 +28,7 @@ website:
   # GOOGLE ANALYTICS: after you create a GA4 property, replace the
   # placeholder below with your Measurement ID (it looks like G-XXXXXXXXXX)
   # ---------------------------------------------------------------
-  google-analytics: "G-REPLACEME"
+  google-analytics: "G-6B1M33EFRD"
   cookie-consent: true
 
 format:
