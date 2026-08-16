@@ -17,6 +17,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: data.qmd
+        text: Data
     right:
       - text: CV
         href: "files/cv.pdf"

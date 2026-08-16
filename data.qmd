@@ -1,0 +1,61 @@
+---
+title: "Data"
+toc: true
+---
+
+## Cross-country term-premium and neutral-rate differentials
+
+Two monthly panels accompany *Model-Free Cross-Country Term Premia*. The first
+carries the recovered sovereign term-premium differentials, and the second the
+neutral-rate differentials, meaning the part of the government yield differential
+that does not contain term premia. Both are measured against the United States,
+at every tenor and for every country the paper analyses, so that a differential
+of one is the complement of the other within the same government yield
+differential.
+
+| File | Contents | Coverage |
+|---|---|---|
+| [Term-premium differentials (CSV)](files/data/gov_term_premium_differentials_monthly.csv) | 45 series, `dtp_gov_USD_{currency}_{tenor}_bp` | monthly, January 2000 to June 2026 |
+| [Neutral-rate differentials (CSV)](files/data/neutral_rate_differentials_monthly.csv) | 45 series, `ndr_USD_{currency}_{tenor}_bp` | monthly, January 2000 to June 2026 |
+
+Each file holds a `Date` column of month-end dates followed by one column per
+currency and tenor. The nine partner currencies are the euro, the yen, sterling,
+the Swiss franc, the Canadian dollar, the Australian dollar, the New Zealand
+dollar, the Swedish krona and the Norwegian krone, and the five tenors are one,
+two, five, ten and twenty years. Values are in basis points and empty cells are
+months in which a series is not quoted.
+
+## How to read the sign
+
+Every differential is partner minus United States, so that a positive ten-year
+value against Germany means the German term premium exceeded the U.S. term
+premium in that month. On the released series, ten-year U.S. Treasury term
+premia sat 28 basis points below German and 37 basis points below Japanese term
+premia over 2002 to 2007, and 56 and 83 basis points above them from 2013
+onwards.
+
+## What the series are, and what they are not
+
+The term-premium differentials are recovered from two traded prices, the
+long-tenor cross-currency basis and the swap-spread differential, with no
+expectations model estimated in any country. The neutral-rate differentials are
+the residual of the same identity, the government yield differential less the
+recovered term-premium differential, so the two panels sum back to the
+government yield differential wherever both are observed.
+
+The series released here are the benchmark-consistent construction on which
+every number in the paper rests. The panel opens in January 2000, and the
+paper's estimation sample begins in 2002, so the first two years are provided
+for completeness rather than used in the paper. The underlying Bloomberg basis,
+zero-coupon curve and bid-ask quotes are licensed and cannot be redistributed;
+the replication materials therefore carry a checksum manifest of the raw inputs,
+sufficient to verify that a rebuild used the same sources.
+
+## Citation
+
+Please cite the paper when using either panel:
+
+> Georgievska, Ljubica. "Model-Free Cross-Country Term Premia." Working paper.
+
+I am glad to hear about applications or errors; contact details are on the
+[home page](index.qmd).
