@@ -24,7 +24,7 @@ AUTHOR = {
         {"@type": "Organization",
          "name": "NYU Stern School of Business"},
         {"@type": "Organization",
-         "name": "BI Norwegian Business School"},
+         "name": "CUNEF Universidad"},
     ],
 }
 

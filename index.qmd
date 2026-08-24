@@ -15,7 +15,7 @@ toc: false
 Welcome to my academic webpage!
 
 I am a Visiting Assistant Professor at NYU Stern School of Business and an
-Assistant Professor at BI Norwegian Business School. I completed my Ph.D.
+Assistant Professor at CUNEF Universidad. I completed my Ph.D.
 in Finance from UCLA Anderson School of Management in September 2022.
 <!-- BIO-END -->
 
@@ -41,9 +41,9 @@ Email: [lg4086@nyu.edu](mailto:lg4086@nyu.edu)
 
 ::: {.g-col-12 .g-col-md-6 .contact-block}
 Department of Finance<br>
-BI Norwegian Business School<br>
-Nydalsveien 37 | Oslo 0484 | Norway<br>
-Email: [ljubica.georgievska@bi.no](mailto:ljubica.georgievska@bi.no)
+CUNEF Universidad<br>
+Madrid | Spain<br>
+Email: [ljubica.georgievska@cunef.edu](mailto:ljubica.georgievska@cunef.edu)
 :::
 
 :::
@@ -64,7 +64,7 @@ Gratitudes to Tsafitanos for the web design
   "jobTitle": "Assistant Professor of Finance",
   "affiliation": [
     {"@type": "Organization", "name": "NYU Stern School of Business"},
-    {"@type": "Organization", "name": "BI Norwegian Business School"}
+    {"@type": "Organization", "name": "CUNEF Universidad"}
   ],
   "alumniOf": {"@type": "Organization",
                "name": "UCLA Anderson School of Management"},
