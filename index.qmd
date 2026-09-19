@@ -53,8 +53,10 @@ Gratitudes to Tsafitanos for the web design
 </div>
 
 <!-- Invisible structured data telling search engines and AI tools who this
-     page belongs to. To add your ORCID later, put its full address (e.g.
-     https://orcid.org/0000-0000-0000-0000) as another line in "sameAs". -->
+     page belongs to. Every address in "sameAs" is another profile that is
+     the same person; listing them helps Google treat those pages and this
+     one as one identity. Add a new profile (e.g. LinkedIn, or a faculty
+     page) by putting its full address as another line in that list. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,7 +74,10 @@ Gratitudes to Tsafitanos for the web design
                  "Derivatives", "Macro-finance", "Financial intermediation"],
   "sameAs": [
     "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en",
-    "https://orcid.org/0009-0006-7871-5753"
+    "https://orcid.org/0009-0006-7871-5753",
+    "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2370219",
+    "https://bfi.uchicago.edu/scholar/ljubica-georgievska/",
+    "https://www.anderson.ucla.edu/degrees/phd-program/areas-of-study/finance/meet-the-students/ljubica-georgievska"
   ]
 }
 </script>
