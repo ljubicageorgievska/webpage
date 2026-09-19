@@ -1,6 +1,14 @@
 ---
 title: "Ljubica Georgievska"
-description: "Ljubica Georgievska is Assistant Professor of Finance at CUNEF Universidad and Visiting Assistant Professor at NYU Stern School of Business, working on empirical asset pricing, international finance, derivatives and macro-finance."
+# description-meta sets the page's <meta name="description"> for search
+# engines WITHOUT printing the text on the page. (A plain "description:"
+# renders as visible lead text under the title.) The &desc anchor lets the
+# same sentence be reused below for the link-preview cards.
+description-meta: &desc "Ljubica Georgievska is Assistant Professor of Finance at CUNEF Universidad and Visiting Assistant Professor at NYU Stern School of Business, working on empirical asset pricing, international finance, derivatives and macro-finance."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
 toc: false
 ---
 

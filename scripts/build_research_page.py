@@ -14,6 +14,9 @@ DATA = ROOT / "papers.yml"
 OUT = ROOT / "research.qmd"
 
 SITE_URL = "https://ljubicageorgievska.github.io/webpage"
+PAGE_DESCRIPTION = ("Working papers and publications by Ljubica Georgievska on "
+                    "empirical asset pricing, international finance, derivatives "
+                    "and macro-finance.")
 AUTHOR = {
     "@type": "Person",
     "name": "Ljubica Georgievska",
@@ -153,11 +156,16 @@ def main() -> None:
     parts = [
         "---",
         'title: "Research"',
-        # A page-level description is what Quarto renders as the page's
-        # <meta name="description">, which search engines show as the snippet.
-        'description: "Working papers and publications by Ljubica Georgievska '
-        'on empirical asset pricing, international finance, derivatives and '
-        'macro-finance."',
+        # description-meta, not description: it sets the page's
+        # <meta name="description"> for search engines WITHOUT printing the
+        # text on the page (a plain "description" renders as visible lead
+        # text under the title). The &desc anchor reuses the same sentence
+        # for the link-preview cards.
+        f'description-meta: &desc "{PAGE_DESCRIPTION}"',
+        "open-graph:",
+        "  description: *desc",
+        "twitter-card:",
+        "  description: *desc",
         "toc: false",
         "---",
         "",
