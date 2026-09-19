@@ -3,7 +3,14 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
-  pre-render: python3 scripts/build_research_page.py
+  pre-render:
+    - python3 scripts/build_research_page.py
+    - python3 scripts/build_google_sites_page.py
+  # Nothing on the site links to this helper page, so Quarto would not copy
+  # it across on its own. It carries a noindex tag and exists only so the
+  # Google Sites page can be refreshed by copy and paste.
+  resources:
+    - files/google-sites.html
 
 website:
   title: "Ljubica Georgievska"
