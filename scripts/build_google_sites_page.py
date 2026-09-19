@@ -13,6 +13,9 @@ page, press the copy button, and paste into Google Sites. Nothing is ever
 written twice: edit papers.yml as usual and the copy refreshes itself on
 the next deploy.
 
+It is a summary, not a mirror: paper titles link out to the full text, but
+abstracts are left out so the page stays short enough to read.
+
 The page carries a noindex tag, so it never competes with the real site
 in search results.
 """
@@ -77,11 +80,9 @@ def paper_html(p: dict) -> str:
         bits.append(f"<br><em>with {html.escape(join_names(coauthors))}</em>")
     bits.append("</p>")
 
-    abstract = (p.get("abstract") or "").strip()
-    if abstract:
-        one_line = re.sub(r"\s+", " ", abstract)
-        bits.append("<p>" + md_links_to_html(one_line) + "</p>")
-
+    # Abstracts are deliberately left out: they make the pasted page far too
+    # long to read. The linked title leads to the full paper, and the real
+    # site carries the abstracts behind their collapsible headings.
     pres = (p.get("presentations") or "").strip()
     if pres:
         one_line = re.sub(r"\s+", " ", pres)
