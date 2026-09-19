@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Ljubica Georgievska"
-  description: "Academic website of Ljubica Georgievska, Assistant Professor of Finance"
+  description: "Ljubica Georgievska, Assistant Professor of Finance at CUNEF Universidad and Visiting Assistant Professor at NYU Stern School of Business. Research in empirical asset pricing, international finance, derivatives and macro-finance."
   site-url: "https://ljubicageorgievska.github.io/webpage"
   navbar:
     background: "#1b2a41"

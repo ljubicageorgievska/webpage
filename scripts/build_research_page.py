@@ -19,7 +19,11 @@ AUTHOR = {
     "name": "Ljubica Georgievska",
     "url": SITE_URL,
     "@id": "https://orcid.org/0009-0006-7871-5753",
-    "sameAs": "https://orcid.org/0009-0006-7871-5753",
+    "sameAs": [
+        "https://orcid.org/0009-0006-7871-5753",
+        "https://scholar.google.com/citations?user=VOG7pkkAAAAJ&hl=en",
+        "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2370219",
+    ],
     "affiliation": [
         {"@type": "Organization",
          "name": "NYU Stern School of Business"},
