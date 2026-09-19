@@ -1,5 +1,6 @@
 ---
 title: "Ljubica Georgievska"
+description: "Ljubica Georgievska is Assistant Professor of Finance at CUNEF Universidad and Visiting Assistant Professor at NYU Stern School of Business, working on empirical asset pricing, international finance, derivatives and macro-finance."
 toc: false
 ---
 

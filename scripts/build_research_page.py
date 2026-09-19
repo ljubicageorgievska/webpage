@@ -153,6 +153,11 @@ def main() -> None:
     parts = [
         "---",
         'title: "Research"',
+        # A page-level description is what Quarto renders as the page's
+        # <meta name="description">, which search engines show as the snippet.
+        'description: "Working papers and publications by Ljubica Georgievska '
+        'on empirical asset pricing, international finance, derivatives and '
+        'macro-finance."',
         "toc: false",
         "---",
         "",
