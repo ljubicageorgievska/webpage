@@ -9,6 +9,10 @@ website:
   title: "Ljubica Georgievska"
   description: "Ljubica Georgievska, Assistant Professor of Finance at CUNEF Universidad and Visiting Assistant Professor at NYU Stern School of Business. Research in empirical asset pricing, international finance, derivatives and macro-finance."
   site-url: "https://ljubicageorgievska.github.io/webpage"
+  # Emit Open Graph / Twitter card tags, so a shared link shows the title and
+  # description instead of a bare URL. Search engines read these too.
+  open-graph: true
+  twitter-card: true
   navbar:
     background: "#1b2a41"
     foreground: light
@@ -25,8 +29,10 @@ website:
   page-footer:
     center: "© Ljubica Georgievska"
   # ---------------------------------------------------------------
-  # GOOGLE ANALYTICS: after you create a GA4 property, replace the
-  # placeholder below with your Measurement ID (it looks like G-XXXXXXXXXX)
+  # GOOGLE ANALYTICS. Do not remove this line: as well as collecting
+  # visitor statistics, the tracking code it inserts is what proves to
+  # Google Search Console that this site belongs to you. Deleting it
+  # would drop the site's verified ownership there.
   # ---------------------------------------------------------------
   google-analytics: "G-6B1M33EFRD"
   cookie-consent: true
