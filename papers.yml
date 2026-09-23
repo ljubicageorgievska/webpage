@@ -74,15 +74,30 @@ working_papers:
     dynamic hedging. Forecast errors reveal systematic monetary policy misinterpretation.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
 - number: 4
-  title: Triangular Pure Parity Deviations
+  title: Term Funding and the Long-Dated Cross-Currency Basis
   coauthors:
   - Benjamin Karner
   - Olav Syrstad
   new: true
   presentations: Northern Finance Association (NFA) *(upcoming)*, and Midwest Finance
     Association
-  abstract: ''
-  draft_url: ''
+  abstract: 'At long maturities, deviations from covered interest parity (CIP) are
+    measured against interest-rate swap (IRS) curves, and the resulting cross-currency
+    basis has been large and persistent since the global financial crisis. We show
+    that the quoted basis is a relative price between two curves and should not be
+    read directly as an arbitrage return: at the 2022 benchmark transition, the same
+    five-year swap was quoted with a basis of −24 basis points under one floating-rate
+    convention and +6 basis points under another. We argue that relative term-funding
+    costs are an important component of the long-dated cross-currency price. The
+    five-year forward premium is closely aligned with cross-currency differences in
+    same-issuer term-funding rates. In the common monthly sample, the mean absolute
+    residual is 24.9 basis points using IRS rates and 10.9 basis points using same-issuer
+    bond yields. The same-issuer residual is approximately invariant to the benchmark
+    transition. Across seventeen independently quoted currency pairs, a currency-level
+    representation accounts for 99.95 percent of the cross-sectional sum of squares
+    at five years. Funded returns at observed dealer borrowing costs are negative
+    in every period and tenor.'
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
   coauthors:
