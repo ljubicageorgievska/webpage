@@ -5,14 +5,15 @@ working_papers:
   - Stefano Pegoraro
   - Anthony Saunders
   new: false
-  presentations: Northern Finance Association (NFA), BIS-World Bank-Banxico Tenth
-    Public Investors Conference *(upcoming)*, EUROFIDAI-ESSEC Paris December Finance
-    Meeting *(upcoming)*, 7th Annual RCF-ECGI Conference *(upcoming)*, Tenth Annual
-    Young Scholars Finance Consortium at Texas A&M Mays, Midwest Finance Association,
-    Sovereign Bond Market Conference 2026 on Sovereign Bond Markets in Geopolitical
-    Storms, 2026 Consortium on Asset Management, 2026 LAPE-FINEST Spring Workshop,
-    Notre Dame Mendoza College of Business Seminar, Colorado Finance Summit (2025),
-    ESADE Spring Workshop (2025), and BI Norwegian Business School Seminar (2024)
+  presentations: BIS-World Bank-Banxico Tenth Public Investors Conference *(upcoming)*,
+    Tenth Annual Young Scholars Finance Consortium at Texas A&M Mays, Sovereign
+    Bond Market Conference 2026 on Sovereign Bond Markets in Geopolitical Storms,
+    Northern Finance Association (NFA), Midwest Finance Association (MFA), 2026
+    Consortium on Asset Management, EUROFIDAI-ESSEC Paris December Finance Meeting
+    *(upcoming)*, 7th Annual RCF-ECGI Conference *(upcoming)*, 2026 LAPE-FINEST
+    Spring Workshop, Notre Dame Mendoza College of Business Seminar, Colorado Finance
+    Summit (2025), ESADE Spring Workshop (2025), and BI Norwegian Business School
+    Seminar (2024)
   abstract: With U.S. government debt exceeding $36 trillion, the management of
     interest rate risk on the Treasury's fixed-rate liabilities has become a first-order
     fiscal question. We show that the Treasury, while institutionally sophisticated
@@ -31,7 +32,7 @@ working_papers:
   title: Model-Free International Term Premia
   coauthors: []
   new: false
-  presentations: Midwest Finance Association and Inquire
+  presentations: Midwest Finance Association (MFA) and Inquire
   abstract: 'I recover cross-country term-premium differentials from two traded
     prices, the long-tenor cross-currency basis and the swap-spread differential,
     with no expectations model and three stated restrictions. The quantity is each
@@ -49,6 +50,7 @@ working_papers:
   - Olav Syrstad
   new: true
   presentations: Northern Finance Association (NFA), and Midwest Finance Association
+    (MFA)
   abstract: 'At long maturities, deviations from covered interest parity (CIP) are
     measured against interest-rate swap (IRS) curves, and the resulting cross-currency
     basis has been large and persistent since the global financial crisis. We show
