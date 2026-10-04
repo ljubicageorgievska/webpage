@@ -35,13 +35,13 @@ working_papers:
   presentations: Midwest Finance Association (MFA) and Inquire
   abstract: 'I recover cross-country term-premium differentials from two traded
     prices, the long-tenor cross-currency basis and the swap-spread differential,
-    with no expectations model and three stated restrictions. The quantity is each
-    sovereign''s own-currency term premium on its own bond, unhedged, not a hedged
-    covered-parity deviation. U.S. 10-year Treasury term premia sat 28 basis points
-    below German Bund and 37 below Japanese JGB term premia before 2008, and 56
-    and 83 above since 2013. The differentials behave as term premia: duration supply
-    prices them at −1.05 percentage points per unit of log U.S. free float, and
-    duration driven policy surprises move them in identified windows.'
+    with no expectations model. The quantity is each sovereign''s own-currency term
+    premium on its own bond, unhedged, distinct from a hedged covered-parity deviation.
+    U.S. 10-year Treasury term premia sat 28 basis points below German Bund and
+    37 below Japanese JGB term premia before 2008, and 56 and 83 above since 2013.
+    The recovered differentials behave as term risk premia: duration supply prices
+    them at −1.05 percentage points per unit of log U.S. free float, and duration
+    driven policy surprises move them in identified windows.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5737482
 - number: 5
   title: Term Funding and the Long-Dated Cross-Currency Basis
