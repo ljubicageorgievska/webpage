@@ -5,15 +5,14 @@ working_papers:
   - Stefano Pegoraro
   - Anthony Saunders
   new: true
-  presentations: Northern Finance Association (NFA) *(upcoming)*, BIS-World Bank-Banxico
-    Tenth Public Investors Conference *(upcoming)*, EUROFIDAI-ESSEC Paris December
-    Finance Meeting *(upcoming)*, 7th Annual RCF-ECGI Conference *(upcoming)*, Tenth
-    Annual Young Scholars Finance Consortium at Texas A&M Mays, Midwest Finance
-    Association, Sovereign Bond Market Conference 2026 on Sovereign Bond Markets
-    in Geopolitical Storms, 2026 Consortium on Asset Management, 2026 LAPE-FINEST
-    Spring Workshop, Notre Dame Mendoza College of Business Seminar, Colorado Finance
-    Summit (2025), ESADE Spring Workshop (2025), and BI Norwegian Business School
-    Seminar (2024)
+  presentations: Northern Finance Association (NFA), BIS-World Bank-Banxico Tenth
+    Public Investors Conference *(upcoming)*, EUROFIDAI-ESSEC Paris December Finance
+    Meeting *(upcoming)*, 7th Annual RCF-ECGI Conference *(upcoming)*, Tenth Annual
+    Young Scholars Finance Consortium at Texas A&M Mays, Midwest Finance Association,
+    Sovereign Bond Market Conference 2026 on Sovereign Bond Markets in Geopolitical
+    Storms, 2026 Consortium on Asset Management, 2026 LAPE-FINEST Spring Workshop,
+    Notre Dame Mendoza College of Business Seminar, Colorado Finance Summit (2025),
+    ESADE Spring Workshop (2025), and BI Norwegian Business School Seminar (2024)
   abstract: With U.S. government debt exceeding $36 trillion, the management of
     interest rate risk on the Treasury's fixed-rate liabilities has become a first-order
     fiscal question. We show that the Treasury, while institutionally sophisticated
@@ -29,25 +28,45 @@ working_papers:
     duration risk.
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
 - number: 6
-  title: Model-Free Cross-Country Convenience Term Premia and the U.S. Dollar Reserve
-    Currency Status
+  title: Model-Free International Term Premia
   coauthors: []
   new: false
-  presentations: ''
-  abstract: 'We develop a parametric-model-free triangular no-arbitrage methodology
-    that recovers cross-country convenience term premia, differentials in bilateral
-    term premia at the long end of the term structure, for seven currencies from
-    cross-currency basis swaps. First, U.S. Treasuries no longer command a long-horizon
-    convenience term premium against major reserve sovereigns: the ten-year term
-    premium of Bunds over Treasuries averaged +31 basis points pre-GFC, -39 during
-    the GFC, and -67 post-GFC; for JGBs, +37, -25, and -81. Second, inelastic U.S.
-    fiscal duration drives U.S. convenience term premia through a preferred-habitat
-    channel. Third, the cross-sectional average predicts the equally-weighted dollar
-    basket twelve months ahead orthogonally to interest rate differentials.
-
-    '
+  presentations: Midwest Finance Association and Inquire
+  abstract: 'I recover cross-country term-premium differentials from two traded
+    prices, the long-tenor cross-currency basis and the swap-spread differential,
+    with no expectations model and three stated restrictions. The quantity is each
+    sovereign''s own-currency term premium on its own bond, unhedged, not a hedged
+    covered-parity deviation. U.S. 10-year Treasury term premia sat 28 basis points
+    below German Bund and 37 below Japanese JGB term premia before 2008, and 56
+    and 83 above since 2013. The differentials behave as term premia: duration supply
+    prices them at −1.05 percentage points per unit of log U.S. free float, and
+    duration driven policy surprises move them in identified windows.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5737482
 - number: 5
+  title: Term Funding and the Long-Dated Cross-Currency Basis
+  coauthors:
+  - Benjamin Karner
+  - Olav Syrstad
+  new: true
+  presentations: Northern Finance Association (NFA), and Midwest Finance Association
+  abstract: 'At long maturities, deviations from covered interest parity (CIP) are
+    measured against interest-rate swap (IRS) curves, and the resulting cross-currency
+    basis has been large and persistent since the global financial crisis. We show
+    that the quoted basis is a relative price between two curves and should not
+    be read directly as an arbitrage return: at the 2022 benchmark transition, the
+    same five-year swap was quoted with a basis of −24 basis points under one floating-rate
+    convention and +6 basis points under another. We argue that relative term-funding
+    costs are an important component of the long-dated cross-currency price. The
+    five-year forward premium is closely aligned with cross-currency differences
+    in same-issuer term-funding rates. In the common monthly sample, the mean absolute
+    residual is 24.9 basis points using IRS rates and 10.9 basis points using same-issuer
+    bond yields. The same-issuer residual is approximately invariant to the benchmark
+    transition. Across seventeen independently quoted currency pairs, a currency-level
+    representation accounts for 99.95 percent of the cross-sectional sum of squares
+    at five years. Funded returns at observed dealer borrowing costs are negative
+    in every period and tenor.'
+  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
+- number: 4
   title: 'The "Hairy Premium": Incomplete Markets and Frictions'
   coauthors:
   - Anthony Saunders
@@ -73,31 +92,6 @@ working_papers:
     notes and binding shorting constraints prevent static replication, forcing costly
     dynamic hedging. Forecast errors reveal systematic monetary policy misinterpretation.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
-- number: 4
-  title: Term Funding and the Long-Dated Cross-Currency Basis
-  coauthors:
-  - Benjamin Karner
-  - Olav Syrstad
-  new: true
-  presentations: Northern Finance Association (NFA) *(upcoming)*, and Midwest Finance
-    Association
-  abstract: 'At long maturities, deviations from covered interest parity (CIP) are
-    measured against interest-rate swap (IRS) curves, and the resulting cross-currency
-    basis has been large and persistent since the global financial crisis. We show
-    that the quoted basis is a relative price between two curves and should not be
-    read directly as an arbitrage return: at the 2022 benchmark transition, the same
-    five-year swap was quoted with a basis of −24 basis points under one floating-rate
-    convention and +6 basis points under another. We argue that relative term-funding
-    costs are an important component of the long-dated cross-currency price. The
-    five-year forward premium is closely aligned with cross-currency differences in
-    same-issuer term-funding rates. In the common monthly sample, the mean absolute
-    residual is 24.9 basis points using IRS rates and 10.9 basis points using same-issuer
-    bond yields. The same-issuer residual is approximately invariant to the benchmark
-    transition. Across seventeen independently quoted currency pairs, a currency-level
-    representation accounts for 99.95 percent of the cross-sectional sum of squares
-    at five years. Funded returns at observed dealer borrowing costs are negative
-    in every period and tenor.'
-  draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
   coauthors:
