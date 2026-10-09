@@ -14,19 +14,15 @@ working_papers:
     Spring Workshop, Notre Dame Mendoza College of Business Seminar, Colorado Finance
     Summit (2025), ESADE Spring Workshop (2025), and BI Norwegian Business School
     Seminar (2024)
-  abstract: With U.S. government debt exceeding $36 trillion, the management of
-    interest rate risk on the Treasury's fixed-rate liabilities has become a first-order
-    fiscal question. We show that the Treasury, while institutionally sophisticated
-    in channeling borrowing surprises into Treasury bills to preserve stable fixed-rate
-    issuance, does not extend this capacity to managing the duration risk embedded
-    in its fixed-rate debt portfolio. The Treasury absorbs fiscal shocks through
-    bills while maintaining predictable longer-term issuance, and does not adjust
-    duration supply in response to market signals, instead tilting toward maturities
-    with the highest intermediation margins. The 2024–2025 buyback program targeted
-    below-par bonds, freeing $21 billion in nominal fiscal capacity with no market-value
-    gain for taxpayers. Exploiting staggered ESA 2010 adoption, we find core European
-    countries reduced term spreads by 0.28 to 0.37 percentage points by managing
-    duration risk.
+  abstract: We evaluate whether the U.S. Treasury could lower borrowing costs by managing
+    the debt's market value within its "regular and predictable" framework. Currently,
+    the Treasury allocates 97.8% of borrowing surprises to bills and issues the duration
+    supply announced a quarter earlier with 96.1% correlation, regardless of changes
+    in swap spreads or term premia. Using auction-level demand elasticities, we estimate
+    a 10% reallocation to shorter duration would have saved over $550 million annually
+    at the 2021 peak. Exploiting the staggered adoption of ESA 2010 in Europe, which
+    extended market-value reporting, we find Core sovereigns lowered term premia by
+    53 basis points.
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
 - number: 6
   title: Model-Free International Term Premia
