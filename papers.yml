@@ -102,8 +102,10 @@ working_papers:
     remains about 30 basis points below the agencies'.
   draft_url: ''
   extra_links:
+  - text: Updated draft
+    url: '#'
   - text: Supplementary Document
-    url: papers/TreasuryTermPremium_Supplement.pdf
+    url: '#'
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
   coauthors:
