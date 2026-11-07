@@ -1,21 +1,5 @@
 working_papers:
 - number: 8
-  title: How Much of the Treasury Term Premium Is the Treasury?
-  coauthors: []
-  new: true
-  abstract: Macroeconomists read expected policy from overnight-indexed swap (OIS)
-    rates and the term premium from Treasury yields. A Treasury bond, unlike a swap,
-    commits the lender's money until it matures. I compare the Treasury with agency
-    debt, whose lenders also commit their money. Since before 2008 the 5-year Treasury
-    term premium has risen 56 basis points relative to the OIS term premium. About
-    a third of that rise is specific to the Treasury; the rest is a price that every
-    borrower of committed money pays relative to a swap. At 10 years the Treasury
-    term premium remains below the agencies'.
-  draft_url: ''
-  extra_links:
-  - text: Supplementary Document
-    url: papers/TreasuryTermPremium_Supplement.pdf
-- number: 7
   title: 'The US Treasury''s Biggest Short: Duration in the Shadows'
   coauthors:
   - Stefano Pegoraro
@@ -40,7 +24,7 @@ working_papers:
     extended market-value reporting, we find Core sovereigns lowered term premia by
     53 basis points.
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5041078
-- number: 6
+- number: 7
   title: Model-Free International Term Premia
   coauthors: []
   new: false
@@ -55,7 +39,7 @@ working_papers:
     them at −1.05 percentage points per unit of log U.S. free float, and duration
     driven policy surprises move them in identified windows.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5737482
-- number: 5
+- number: 6
   title: Term Funding and the Long-Dated Cross-Currency Basis
   coauthors:
   - Benjamin Karner
@@ -80,8 +64,8 @@ working_papers:
     at five years. Funded returns at observed dealer borrowing costs are negative
     in every period and tenor.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
-- number: 4
-  title: 'The "Hairy Premium": Incomplete Markets and Frictions'
+- number: 5
+  title: Long-Term Expectations in Swap Markets and the "Hairy Premium"
   coauthors:
   - Anthony Saunders
   new: false
@@ -94,18 +78,32 @@ working_papers:
     Frankfurt School of Finance and Management, and BI Norwegian Business School
 
     '
-  abstract: 'Interest rate swaps should theoretically generate zero expected excess
-    returns under risk-neutral pricing, yet systematically deviate from this principle.
-    Fixed-rate receivers earn 2.74% annual excess returns ("Hairy premiums") in
-    U.S. dollar 10-year swaps, with similar magnitudes across G10 currencies. Applying
-    novel triangular extraction methodology from cross-currency swaps, we decompose
-    realized U.S. relative premiums into expected and unexpected components. Expected
-    premiums explain 67.1-77.1% of realized variance and significantly differ from
-    zero, demonstrating markets expect these deviations ex-ante. We attribute expected
-    premiums to market incompleteness: absent long-term government floating-rate
-    notes and binding shorting constraints prevent static replication, forcing costly
-    dynamic hedging. Forecast errors reveal systematic monetary policy misinterpretation.'
+  abstract: 'Long-horizon forward rates in swap markets have overstated later short
+    rates since 1988: receiving the fixed rate on a 10-year U.S. swap earned 2.76%
+    a year over the floating rate, with similar premia across the G10 and in government
+    bonds. We decompose this premium into the expected term premium and the error
+    in forecasting short rates. Against professional forecasters'' long-run expectations,
+    about three quarters was forecast error, mostly in the real rate, and one quarter
+    the expected term premium. Half of the error is forecasters'' later downward revision
+    of their long-run forecast, consistent with slow learning about falling long-run
+    rates.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
+- number: 4
+  title: How Much of the Treasury Term Premium Is the Treasury?
+  coauthors: []
+  new: true
+  abstract: Macroeconomists read the expected policy rate from overnight-indexed swap
+    (OIS) rates and the term premium from Treasury yields. A Treasury bond, unlike a
+    swap, commits the lender's money until maturity. I compare the Treasury with agency
+    debt, whose lenders also commit their money. Since before 2008 the 5-year Treasury
+    term premium has risen 56 basis points relative to the OIS term premium. About
+    a third of that rise is specific to the Treasury. The rest is shared by every
+    borrower whose lenders commit their money. At 10 years the Treasury term premium
+    remains about 30 basis points below the agencies'.
+  draft_url: ''
+  extra_links:
+  - text: Supplementary Document
+    url: papers/TreasuryTermPremium_Supplement.pdf
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
   coauthors:
