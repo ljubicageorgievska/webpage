@@ -3,14 +3,14 @@ working_papers:
   title: How Much of the Treasury Term Premium Is the Treasury?
   coauthors: []
   new: true
-  abstract: Macroeconomists read expected policy from overnight-indexed swap (OIS)
-    rates and the term premium from Treasury yields. A Treasury bond, unlike a swap,
-    commits the lender's money until it matures. I compare the Treasury with agency
+  abstract: Macroeconomists read the expected policy rate from overnight-indexed swap
+    (OIS) rates and the term premium from Treasury yields. A Treasury bond, unlike a
+    swap, commits the lender's money until maturity. I compare the Treasury with agency
     debt, whose lenders also commit their money. Since before 2008 the 5-year Treasury
     term premium has risen 56 basis points relative to the OIS term premium. About
-    a third of that rise is specific to the Treasury; the rest is a price that every
-    borrower of committed money pays relative to a swap. At 10 years the Treasury
-    term premium remains below the agencies'.
+    a third of that rise is specific to the Treasury. The rest is shared by every
+    borrower whose lenders commit their money. At 10 years the Treasury term premium
+    remains about 30 basis points below the agencies'.
   draft_url: ''
   extra_links:
   - text: Supplementary Document
