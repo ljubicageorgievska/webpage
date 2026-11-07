@@ -91,7 +91,7 @@ working_papers:
 - number: 4
   title: How Much of the Treasury Term Premium Is the Treasury?
   coauthors: []
-  new: true
+  new: false
   abstract: Macroeconomists read the expected policy rate from overnight-indexed swap
     (OIS) rates and the term premium from Treasury yields. A Treasury bond, unlike a
     swap, commits the lender's money until maturity. I compare the Treasury with agency
