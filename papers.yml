@@ -44,7 +44,7 @@ working_papers:
   coauthors:
   - Benjamin Karner
   - Olav Syrstad
-  new: true
+  new: false
   presentations: Northern Finance Association (NFA), and Midwest Finance Association
     (MFA)
   abstract: 'At long maturities, deviations from covered interest parity (CIP) are
