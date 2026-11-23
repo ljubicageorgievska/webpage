@@ -65,7 +65,7 @@ working_papers:
     in every period and tenor.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071471
 - number: 4
-  title: Long-Term Expectations in Swap Markets and the "Hairy Premium"
+  title: 'The Hairy Premium: The Cost of Paying Fixed in Swaps'
   coauthors:
   - Anthony Saunders
   new: false
@@ -78,15 +78,14 @@ working_papers:
     Frankfurt School of Finance and Management, and BI Norwegian Business School
 
     '
-  abstract: 'Long-horizon forward rates in swap markets have overstated later short
-    rates since 1988: receiving the fixed rate on a 10-year U.S. swap earned 2.76%
-    a year over the floating rate, with similar premia across the G10 and in government
-    bonds. We decompose this premium into the expected term premium and the error
-    in forecasting short rates. Against professional forecasters'' long-run expectations,
-    about three quarters was forecast error, mostly in the real rate, and one quarter
-    the expected term premium. Half of the error is forecasters'' later downward revision
-    of their long-run forecast, consistent with slow learning about falling long-run
-    rates.'
+  abstract: 'Since 1988, receiving fixed on 10-year U.S. swaps held to maturity earned
+    2.41% a year over the floating rate, and similarly across the G10. Against professional
+    forecasters'' expectations, three quarters of the U.S. premium was forecast error,
+    mostly an overestimate of the real rate, although not, on average, of its natural
+    level: forecasters expected a real rate below that level and missed how far below
+    it the real rate stayed. On those expectations, hedgers paying fixed had accepted
+    about a quarter of the premium realized. The rest, positive every year from the
+    mid-1990s, was forecast error, a cost relevant to risk management.'
   draft_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475821
 - number: 3
   title: 'Time-varying Market Segmentation: The Twin D''s and a Tale of Two Tails'
